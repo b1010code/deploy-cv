@@ -12,7 +12,7 @@ export class FooterComponent {
   constructor(private router: Router){ }
 
 link(){
-  window.open('/deploy-cv/intro', '_blank');
+  window.open('https://b1010code.com.br/intro', '_blank');
 }
 
 }
