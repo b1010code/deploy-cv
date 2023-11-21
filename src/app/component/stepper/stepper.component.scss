@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+mat-card-content {
+  color: var(--primary);
+  text-shadow: 1px 1px 1px black;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 100%;
+  text-align: center;
+}
+
+.flex-item-left {
+  padding: 10px;
+  flex: 50%;
+}
+
+.flex-item-right {
+  padding: 10px;
+  flex: 50%;
+}
+
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+.container {
+  background-color: yellow;
+  padding: 0px;
+  margin: 0px;
+}
+
+.responsive-grid {
+  display: grid;
+  // grid-template-columns: repeat(auto-fill, minmax(1fr));
+  gap: 30px;
+  background-color: blue;
+}
