@@ -12,7 +12,7 @@ export class FooterComponent {
   constructor(private router: Router){ }
 
 link(){
-  window.open('/intro', '_blank');
+  window.open('/deploy-cv/intro', '_blank');
 }
 
 }

@@ -14,7 +14,7 @@ export class HomeComponent {
     this.router.navigate(['/login']);   
   }
 
-  stripe(){
+  stripe(){    
       window.open('https://stripe.com/en-br', '_blank');
   } 
 

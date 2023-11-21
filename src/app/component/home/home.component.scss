@@ -19,10 +19,23 @@ mat-card-content {
 }
 
 .stripe {
-  color: white;
+  color: #fff;
   background-color: #070711;
   margin: 5px;
   padding: 5px;
+}
+
+.stripe:hover {
+  color: rgb(255, 255, 83);
+  box-shadow: 1px 1px 1px yellow;
+  background-color: #070711;
+  margin: 5px;
+  padding: 5px;
+}
+
+mat-success {
+  background-color: green;
+  color: #fff;
 }
 
 .actions {
