@@ -16,10 +16,6 @@ export class HomeComponent {
 
   stripe(){
       window.open('https://stripe.com/en-br', '_blank');
-  }
-  
-  toCV(){
-    this.router.navigate(['/cv']);
-  }
+  } 
 
 }
